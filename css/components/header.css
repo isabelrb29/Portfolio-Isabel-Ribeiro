@@ -15,11 +15,15 @@ header .header__left {
 header .header__left p {
   margin-top: 2rem;
   margin-bottom: 4rem;
-  max-width: 50rem;
   text-align: justify;
 }
 
 /*Edições das imagens*/
+header .header__right {
+  max-width: 50rem;
+  flex: 1;
+}
+
 header .header__right .header__image {
   position: relative;
   line-height: 0;
@@ -41,7 +45,7 @@ header .header__right .header__image::after {
 header .header__right .header__image .isabel {
   border-radius: 0.5rem;
   min-width: 25rem;
-  max-width: 95%;
+  max-width: 90%;
 }
 /*Imagem pontilhada atras da principal*/
 header .header__right .header__image .background {
@@ -61,10 +65,8 @@ header .header__right .header__image .background {
   header .header__left {
     max-width: 66rem;
     text-align: center;
-    width: 50rem;
   }
   header .header__left p {
     text-align: center;
-    width: 50rem;
   }
 }
