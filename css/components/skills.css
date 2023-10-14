@@ -1,0 +1,23 @@
+.skills {
+  background-color: var(--light-tertiary-color);
+  scroll-margin-top: 15rem;
+}
+
+.skills .skills__content {
+  padding: 6rem 4rem;
+  text-align: center;
+  margin: 0 auto 20rem;
+}
+/*Usando o grid para dispor os cursos de formação*/
+.skills .skills__content ul {
+  display: grid;
+  margin-top: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+}
+
+.skills .skills__content ul li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+}
