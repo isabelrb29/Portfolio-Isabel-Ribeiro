@@ -1,0 +1,14 @@
+/*Cores usadas no Portfolio*/
+:root {
+  --white: #ffffff;
+  --gray: #f3f2f2;
+  --black: #000000;
+  --primary-color: #C01AE0;
+  --secondary-color: #9A37AD;
+  --dark-secondary-color: #71407A;
+  --tertiary-color: #78f8cf;
+  --light-tertiary-color: #e0f5ee;
+  --text-color: #322B33;
+
+  --font-family: 'DM Sans', sans-serif;
+}

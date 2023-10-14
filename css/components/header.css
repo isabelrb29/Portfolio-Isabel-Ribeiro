@@ -1,0 +1,66 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  scroll-margin-top: 20rem;
+}
+
+/*Edições do texto*/
+header .header__left {
+  max-width: 70rem;
+  width: 100rem;
+  flex: 1;
+}
+
+header .header__left p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  max-width: 50rem;
+  width: 100rem;
+  text-align: justify;
+}
+
+/*Edições das imagens*/
+header .header__right .header__image {
+  position: relative;
+  line-height: 0;
+}
+/*Linha por tras da foto*/
+header .header__right .header__image::after {
+  content: '';
+  display: block;
+  width: 95%;
+  height: 95%;
+  border: 1px solid var(--tertiary-color);
+  position: absolute;
+  top: -1.7rem;
+  right: -1.7rem;
+  border-radius: 100rem;
+  z-index: -1;
+}
+/*Foto principal*/
+header .header__right .header__image .isabel {
+  border-radius: 0.5rem;
+  min-width: 25rem;
+  max-width: 95%;
+}
+/*Imagem pontilhada atras da principal*/
+header .header__right .header__image .background {
+  position: absolute;
+  top: -4rem;
+  right: -2.5rem;
+  z-index: -1;
+}
+
+/*Edições para dispositivos móveis*/
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  header .header__left p {
+    margin: 2rem auto 4rem;
+  }
+}

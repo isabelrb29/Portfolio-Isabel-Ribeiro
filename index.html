@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- título -->
+    <title>Portfólio da Isabel Ribeiro</title>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#skills">Formação</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <!-- Barra de navegação para celular -->
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#skills">Formação</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Início -->
+    <header id="header" class="max-width">
+      <!-- Parte do texto -->
+      <div class="header__left">
+        <h1>Isabel Ribeiro</h1>
+        <h3 class="tertiary-title">Desenvolvedora em formação</h3>
+        <p>
+          Estudante de Análise e Desenvolvimento de Sistemas na Uninter e Biotecnologista 
+          formada pela Federal do Ceará. Almejo me tornar uma desenvolvedora back-end e 
+          construir uma carreira sólida no mundo da tecnologia.
+        </p>
+        <!-- Botão -->
+        <a href="#about" class="btn btn-primary">Saiba mais!</a>
+      </div>
+      <!-- Parte da imagem -->
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/Isabel-Ribeiro.png" alt="Isabel Ribeiro" class="isabel" />
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Sobre mim -->
+    <section id="about" class="about max-width">
+      <!-- Redes Sociais -->
+      <div class="about__left">
+        <h2 class="secondary-title">Vamos nos conectar?</h2>
+        <p>
+          Conecte-se comigo nas redes sociais abaixo e saiba mais sobre mim
+          e meus estudos.
+        </p>
+        <ul>
+          <li>
+            <a href="https://github.com/isabelrb29" target="_blank"><img src="assets/github.svg" alt="GitHub" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/isabel-ribeiro-barbosa-213047137/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- Parte do texto -->
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+          Quem sou eu?
+        </h3>
+        <p>
+          Olá, me chamo Isabel Ribeiro Barbosa, tenho 29 anos e sou natural de Fortaleza-CE. 
+          Sou Biotecnologista em processo de transição de carreira para a área da tecnologia. 
+          Estudo Análise e Desenvolvimento de Sistemas como segunda graduação, e por ser uma 
+          pessoa que adora lógica e resolução de problemas estou voltando meus estudos da 
+          programação para a vertente do Back-end.     
+        </p>
+        <p>
+          Além de estudar e aprender coisas novas, eu gosto de viajar, conhecer cafeterias, 
+          passar tempo com minha família e meu namorado, e ir à praia para curtir o calor 
+          ou apenas passear na orla, principalmente, com minha cachorrinha. Também sou 
+          apaixonada por séries e filmes dos anos 2000 e produções coreanas. 
+        </p>
+      </div>
+    </section>
+
+    <!-- Formação -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="secondary-title">Formação Acadêmica</h2>
+        <ul>
+          <li class="skills__item">
+            <h3 class="tertiary-title">University of Nevada, Reno</h3>
+            <p>
+              Intercâmbio pelo programa Ciência sem Fronteiras <br>
+              Ano de conclusão: 2015
+            </p>
+          </li>
+          <li class="skills__item">
+            <h3 class="tertiary-title">Universidade Federal do Ceará</h3>
+            <p>
+              Bacharelado em Biotecnologia <br>
+              Ano de conclusão: 2017
+            </p>
+          </li>
+          <li class="skills__item">
+            <h3 class="tertiary-title">Uninter</h3>
+            <p>
+              CST Análise e Desenvolvimento de Sistemas <br>
+              Conclusão esperada: 2025
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Meus projetos</h2>
+        <p>
+          Projetos pessoais dos meus estudos em programação
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Cofrinho de moedas
+            </h3>
+            <p>
+              Sistema desenvolvido para a disciplina Programação Orientada a Objetos. Consiste 
+              em um pequeno sistema que emula um "Cofrinho de moedas" implementado na linguagem Java. 
+            </p>
+            <a href="https://github.com/isabelrb29/Cofrinho">Repositório &rarr;</a>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Conta bancária
+            </h3>
+            <p>
+              Sistema desenvolvido para treinar POO e tratamento de exceções. Consiste em um 
+              programa para ler os dados de uma conta bancária e depois realizar um saque nesta 
+              conta, mostrando em seguida o novo saldo.
+            </p>
+            <a href="https://github.com/isabelrb29/Conta-Bancaria">Repositório &rarr;</a>
+          </div>
+        </li>
+        <li>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Processamento de contrato
+            </h3>
+            <p>
+              Sistema desenvolvido para exercitar POO com uso de interface. Consiste em um programa 
+              para uma empresa que deseja automatizar o processamento de seus contratos. Esse processamento 
+              resume-se em gerar as parcelas a serem pagas por um contrato, com base no número de meses 
+              desejado pelo usuário.
+            </p>
+            <a href="https://github.com/isabelrb29/Processamento-de-contrato">Repositório &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contato -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Envie sua mensagem</h2>
+        <p class="mb-m">
+          Tem alguma dúvida, sugestão ou gostaria de conversar sobre uma oportunidade de 
+          trabalho? Deixe sua mensagem e retornarei o mais breve possível.
+        </p>
+        <!-- Formulário -->
+        <form action="">
+          <input type="text" placeholder="Nome" class="footer__form">
+          <input type="email" placeholder="E-mail" class="footer__form">
+          <br> <br>
+          <textarea name="msg" placeholder="Mensagem" rows="7" cols="43" class="footer__form" required></textarea>
+          <br><br>
+          <input type="submit" name="enviar" value="Enviar" class="btn btn-primary">
+        </form>
+        <!-- Redes Sociais -->
+        <ul class="mb-l">
+          <li>
+            <a href="https://github.com/isabelrb29" target="_blank"><img src="assets/github.svg" alt="GitHub" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/isabel-ribeiro-barbosa-213047137/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+        </ul>
+        <!-- Copyright -->
+        <p class="footer__copyright">
+          © 2023 Isabel Ribeiro. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script externo -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
