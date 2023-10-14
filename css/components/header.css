@@ -57,7 +57,6 @@ header .header__right .header__image .background {
 @media only screen and (max-width: 768px) {
   header {
     flex-direction: column-reverse;
-<<<<<<< HEAD
     align-items: center;
     text-align: center;
   }
@@ -65,12 +64,5 @@ header .header__right .header__image .background {
   header .header__left {
     max-width: 66rem;
     text-align: center;
-=======
-    text-align: center;
-  }
-
-  header .header__left p {
-    margin: 2rem auto 4rem;
->>>>>>> 0c9212122810729dfa1f7de4684afde188f011b4
   }
 }

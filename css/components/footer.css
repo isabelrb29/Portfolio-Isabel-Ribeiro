@@ -31,7 +31,6 @@ footer .footer__content ul a {
 footer .footer__content .footer__copyright {
   font-size: 1.4rem;
 }
-<<<<<<< HEAD
 
 /*Edições para dispositivos móveis*/
 @media only screen and (max-width: 768px) {
@@ -42,5 +41,3 @@ footer .footer__content .footer__copyright {
   }
 
 }
-=======
->>>>>>> 0c9212122810729dfa1f7de4684afde188f011b4
