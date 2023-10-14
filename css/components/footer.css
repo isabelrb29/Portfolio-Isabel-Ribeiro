@@ -16,7 +16,9 @@ footer .footer__form {
   border: none;
   padding: 1rem 1rem;
   border-radius: 0.5rem;
+  width: 85%;
 }
+
 /*Especificações das redes sociais*/
 footer .footer__content ul li {
   display: inline-block;

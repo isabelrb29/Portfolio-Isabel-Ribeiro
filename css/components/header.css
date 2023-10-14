@@ -58,11 +58,15 @@ header .header__right .header__image .background {
   header {
     flex-direction: column-reverse;
     align-items: center;
-    text-align: center;
   }
 
   header .header__left {
     max-width: 66rem;
     text-align: center;
+    width: 50rem;
+  }
+  header .header__left p {
+    text-align: center;
+    width: 50rem;
   }
 }
