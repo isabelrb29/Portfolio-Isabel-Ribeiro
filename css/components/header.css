@@ -8,8 +8,7 @@ header {
 
 /*Edições do texto*/
 header .header__left {
-  max-width: 70rem;
-  width: 100rem;
+  max-width: 66rem;
   flex: 1;
 }
 
@@ -17,7 +16,6 @@ header .header__left p {
   margin-top: 2rem;
   margin-bottom: 4rem;
   max-width: 50rem;
-  width: 100rem;
   text-align: justify;
 }
 
